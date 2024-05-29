@@ -1,11 +1,12 @@
-const nav = document.querySelector("nav");
-const produtos = document.querySelector(".produtos a");
+let total = 0;
 
-console.log(nav);
-console.log(produtos);
+const compras = 30;
+const imposto = 10;
 
-console.log(produtos.href);
+total = compras + imposto;
 
-nav.style.backgroundColor = "black";
-nav.style.padding = "1rem";
-nav.classList.add("ativo");
+const dobro = total * 2;
+const metade = total / 2;
+const desconto = total - 30;
+
+console.log(desconto);
