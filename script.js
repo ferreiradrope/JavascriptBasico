@@ -1,12 +1,26 @@
-let total = 0;
+const nome = "O senhor dos Anéis";
+const ano = 1954;
+const autor = "J. R. R. Tolkien";
 
-const compras = 30;
-const imposto = 10;
+const nomeFilme = "O Senhor dos Anés";
+const anoFilme = 2001;
+const diretorFilme = "Peter Jackson";
 
-total = compras + imposto;
+const livro = {
+  nome: "O senhor dos Anéis",
+  ano: 1954,
+  autor: "J. R. R. Tolkien",
+};
 
-const dobro = total * 2;
-const metade = total / 2;
-const desconto = total - 30;
+const filme = {
+  nome: "O senhor dos Anéis",
+  ano: 2001,
+  autor: "J. R. R. Tolkien",
+  diretor: "Peter Jackson",
+};
 
-console.log(desconto);
+console.log(livro.nome === nome);
+
+const texto = document.querySelector("p");
+
+console.log(autor.toLocaleLowerCase());
